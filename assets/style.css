@@ -1,0 +1,13 @@
+#userPic {
+  width: 50px;
+  height: 50px;
+}
+
+button.error {
+  margin: 5px;
+}
+
+body {
+  padding-left: 10px;
+  padding-right: 10px;
+}

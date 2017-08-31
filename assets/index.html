@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
+
+
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/picnicss/6.3.2/picnic.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <p id="user"></p>
+    <div id="caseList">
+
+    </div>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/4.3.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/4.3.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/4.3.0/firebase-database.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+    <script src="firebase.js"></script>
+    <script src="core.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=signIn"></script>
+  </body>
+</html>
